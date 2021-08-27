@@ -634,11 +634,14 @@ footer p .colored {
 	padding: 0;
 	overflow: hidden;
 	position: relative;
+	padding: 20px;
 }
 
 #portfolio .project .project-img-wrapper {
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	border-radius: 5px;
+    border: 3px solid #013243;
 }
 
 #portfolio .project .img-overlay {
