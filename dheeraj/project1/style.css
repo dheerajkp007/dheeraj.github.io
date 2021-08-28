@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&display=swap');
+body{
+    background: cadetblue;
+    font-family: 'Lato';
+    background-image: url(hero-bg.jpg);
+    background-position: center;
+}
+.delhikacoder{
+    margin-top: 10%;
+}
+.count-down-container{
+    display: flex;
+    text-align: center !important;
+    background: red;
+    position: absolute;
+    color: #fff;
+    left: 19%;
+}
+
+.big-text{
+    font-size: 4rem;
+    margin: 0 2rem;
+}
+.count-down-el{
+    text-align: center;
+    
+    margin:  0 2rem;
+    padding: 9px 0;
+}
+.count-down-el span{
+    text-align: center;
+    font-size: 1.5rem;
+}
+h1{
+    text-align: center;
+    font-size: 43px;
+    padding: 27px 0;
+    color: #fff;
+    font-weight: 800;
+}
+
+@media (max-width:768px){
+    .count-down-container{
+    display: inline;
+  } 
+  }
